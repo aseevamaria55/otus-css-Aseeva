@@ -1,15 +1,23 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
     <title>Mod Studio</title>
   </head>
   <body>
-    <header>
-      <p>MOD</p>
+    <header class="header">
+      <p id="logo">Mod</p>
       <nav>
-        <ul>
+        <ul class="navigation">
           <li><a href="#Biography">Biography</a></li>
           <li><a href="#Designers">Designers</a></li>
           <li><a href="#Testimonials">Testimonials</a></li>
@@ -20,105 +28,132 @@
     </header>
     <main>
       <h1>Mod Studio</h1>
-       <p>Modern Web Studio</p>
-         <section id="Biography">
-      <h2>Biography</h2>
-      <h3>Katya Mills</h3>
-      <b>Art Director</b> <br />
-      <b>Scenography / Styling / Creative Photography / Design</b> <br />
-      <img
-        src="./images/Girl-in-the-hat.jpg"
-        alt="Photo the girl in the hat"
-      />
-
-      <q
-        >The more I deal with the work as something that is my own, as something
-        that is personal, the more successful it is.</q
-      >
+      <p class="subtitle">Modern Web Studio</p>
+      <section id="Biography">
+        <img
+          src="./images/Girl-in-the-hat.jpg"
+          alt="Photo the girl in the hat"
+        />
+        <h2>Biography</h2>
+        <div>
+          <h3>Katya<br />Mills</h3>
+          <p class="Biography">Art Director</p>
+          <br />
+          <p class="Biography">Scenography / Styling / Creative Photography / Design</p>
+          <br />
+          <blockquote>
+            "The more I deal with the work as something that is my own, as
+            something that is personal, the more successful it is."
+          </blockquote>
+        </div>
       </section>
-    
 
-    <section id="Designers">
-      <h2>Designers</h2>
-      <ul>
-        <li>
-          <img
-            src="./images/The-girl-in-the-field .jpg"
-            alt="The girl in the field"
-          /><br />
-          <b>Jess Wonder</b><br />
-          <b>From/</b>Be more flower<br />
-          <b>Skills/</b> Design Strategy / Marketing
-        </li>
-
-        <li>
-          <img
-            src="./images/bag.jpg"
-            alt="The man with a bag in his hands"
-          /><br />
-          <b>Kameron Clein</b><br />
-          <b>From/</b> Be more flower<br />
-          <b>Skills/</b> Design Strategy / Marketing<br />
-        </li>
-        <li>
-          <img
-            src="./images/Book.jpg"
-            alt="The man with a book in his hands"
-          /><br />
-          <b>LOUISSE RED</b><br />
-          <b>From/</b> Be more flower<br />
-          <b>Skills/</b> Design Strategy / Marketing /
-        </li>
-      </ul>
-    </section>
-    <section id="Testimonials">
-      <h2>Testimonials</h2>
-      <ul>
-        <li>
-          Creativity<br />
-          <a href="www.whitepapers.com">www.whitepapers.com</a>
-        </li>
-        <li>
-          Creativity<br />
-          <a href="www.whitepapers.com">www.whitepapers.com</a>
-        </li>
-        <li>
-          Website<br />
-          <a href="www.whitepapers.com">www.whitepapers.com</a>
-        </li>
-      </ul>
-      <img src="./images/cafe.jpg" alt="Cafe" />
-      <article>
-        <img src="./images/shopper.jpg" alt="The shopper with a book" />
-        <blockquote
-          >I just really want to do good work and work with some great people,
-          people who challange me.</blockquote>
-      </article>
-    </section>
-    <section id="Strong_point">
-      <h2>Strong points</h2>
-      <h3>Strengths</h3>
-      <ul>
-        <li>Outdoors</li>
-        <li>Portraits</li>
-        <li>Events</li>
-        <li>Architecture</li>
-        <li>Design</li>
-        <li>Celebrations</li>
-        <li>Artistic</li>
-        <li>Fashion</li>
-        <li>Nature</li>
-      </ul>
-    </section>
+      <section id="Designers">
+        <h2 class="Design">Designers</h2>
+        <ul class="designers-list">
+          <li class="designer-card">
+            <img
+              src="./images/The-girl-in-the-field .jpg"
+              alt="The girl in the field"
+            /><br />
+            <p class="designer-name">JESS WONDER</p>
+            <br />
+            <p class="designer-text">
+              <span class="label">From/</span> Be more flower
+            </p>
+            <p class="designer-text">
+              <span class="label">Skills/</span> Design Strategy / Marketing
+            </p>
+          </li>
+          <li class="designer-card">
+            <img
+              src="./images/bag.jpg"
+              alt="The man with a bag in his hands"
+            /><br />
+            <p class="designer-name">KAMERON CLEIN</p>
+            <br />
+            <p class="designer-text">
+              <span class="label">From/</span> Be more flower
+            </p>
+            <p class="designer-text">
+              <span class="label">Skills/</span> Design Strategy / Marketing
+            </p>
+          </li>
+          <li class="designer-card">
+            <img
+              src="./images/Book.jpg"
+              alt="The man with a book in his hands"
+            /><br />
+            <p class="designer-name">LOUISSE RED</p>
+            <br />
+            <p class="designer-text">
+              <span class="label">From/</span> Be more flower
+            </p>
+            <p class="designer-text">
+              <span class="label">Skills/</span> Design Strategy / Marketing
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section id="Testimonials">
+        <ul class="creative-list">
+          <li class="creative">
+            Creativity<br />
+            <a href="www.whitepapers.com">www.whitepapers.com</a>
+          </li>
+          <li class="creative">
+            Creativity<br />
+            <a href="www.whitepapers.com">www.whitepapers.com</a>
+          </li>
+          <li class="creative">
+            Website<br />
+            <a href="www.whitepapers.com">www.whitepapers.com</a>
+          </li>
+        </ul>
+        <img src="./images/cafe.jpg" alt="Cafe" />
+        <h2>Testimonials</h2>
+        <article class="Testimonials">
+          <blockquote>
+            I just really want to do good work and work with some great people,
+            people who challange me.
+          </blockquote>
+          <img src="./images/shopper.jpg" alt="The shopper with a book" />
+        </article>
+      </section>
+      <section id="Strong_point">
+        <h2 class="strong">Strong points</h2>
+        <div style="display: flex; gap: 16px">
+          <img src="./images/table.jpg" alt="laptop on the table" />
+          <img src="./images/armchair.jpg" alt="armchair" />
+          <div class="center">
+            <h3>Strengths</h3>
+            <ul class="strength-list">
+              <li>Outdoors</li>
+              <li>Portraits</li>
+              <li>Events</li>
+              <li>Architecture</li>
+              <li>Design</li>
+              <li>Celebrations</li>
+              <li>Artistic</li>
+              <li>Fashion</li>
+              <li>Nature</li>
+            </ul>
+          </div>
+          <img src="./images/cafe.jpg" alt="Cafe">
+        </div>
+      </section>
     </main>
-    <footer>
-      <address>
-      <a href="tel:+7 921-123-45-67">+7 921-123-45-67</a><br/>
-      <a href="mail:INFO@MODSTUDIO.COM">INFO@MODSTUDIO.COM</a><br/>
+    <footer class="footer">
+      <address class="contacts">
+        <a href="tel:+7 921-123-45-67">+7 921-123-45-67</a><br />
+        <a href="mail:INFO@MODSTUDIO.COM">INFO@MODSTUDIO.COM</a><br />
       </address>
-      <p>A product of MOD<br/>
-      © 2023 Mod Media. All rights reserved</p>
-      
+      <p class="footer-center">
+        A product of <span class="mod-font">MOD</span><br />
+      </p>
+      <p class="footer-right">
+        © 2023 Mod Media. All rights reserved
+      </p>
     </footer>
   </body>
 </html>

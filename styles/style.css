@@ -1,0 +1,248 @@
+@import url(fonts.css);
+
+.header {
+display: flex;
+width: 1400px;
+height: 135px;
+left: 20px;
+gap: 20px;
+color: #000;
+}
+
+#logo {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 120%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  font-size: 86px;
+  width: 184px; 
+  height: 103px;
+}
+.navigation {
+ font-family: "Roboto", sans-serif;
+ font-weight: 500;
+ font-size: 24px;
+ line-height: 100%;
+ letter-spacing: 0;
+ vertical-align: middle;
+ text-align: center; 
+ /* width: 1126px; */
+ height: 28px;
+ gap: 55px;
+ display: flex;
+ list-style-type: none;
+  
+}
+.navigation a {
+ text-decoration: none;
+ color: #000;
+}
+h1 {
+font-family: "Playfair Display";
+font-weight: 500;
+font-size: 86px;
+line-height: 120%;
+letter-spacing: 0;
+text-align: center;
+vertical-align: middle;
+}
+.subtitle {
+  text-align: center;
+}
+
+h2 {
+ font-family: "Roboto", sans-serif;
+ font-weight: 700;
+ font-size: 24px;
+ line-height: 100%;
+ letter-spacing: 0;
+ text-align: right;
+ align-self: flex-start;
+ writing-mode: sideways-lr;
+}
+
+
+section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+p {
+ font-family: "Roboto", sans-serif;
+ font-weight: 500;
+ font-size: 20px;
+ line-height: 100%;
+ letter-spacing: 0;
+ color: #000;
+}
+.Biography {
+  font-size: 18px;
+}
+
+blockquote {
+ font-family: "Bitter", serif;
+ font-weight: 400;
+ font-size: 26px;
+ line-height: 100%;
+ letter-spacing: 0;
+}
+.Design  {
+  writing-mode:horizontal-tb;
+}
+
+.designers-list {
+  display: flex;
+}
+
+.designer-card {
+  text-align: center;
+}
+
+.designer-name {
+ font-family: "Roboto", sans-serif;
+ font-weight: 700;
+ font-size: 16px;
+ line-height: 100%;
+ letter-spacing: 0;
+ color: #000;
+}
+.designer-text {
+ font-family: "Roboto", sans-serif;
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 100%;
+ letter-spacing: 0;
+ color: #000;
+}
+.label {
+  font-weight: 700;
+}
+ .creative-list {
+ display: flex;
+ gap: 20px;
+ flex-direction: column-reverse;
+ }
+
+.creative {
+ font-family: "Roboto", sans-serif;
+ font-weight: 700;
+ font-size: 16px;
+ line-height: 100%;
+ letter-spacing: 0;
+ color: #000;
+ writing-mode: vertical-rl;
+ transform: rotate(180deg);
+ text-align: center;
+}
+.creative a {
+ font-family: "Roboto", sans-serif;
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 100%;
+ letter-spacing: 0;
+ color: #000;
+}
+ .testimonial {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 400px;
+}
+
+article blockquote {
+ font-family: "Bitter", serif;
+ font-weight: 400;
+ font-size: 32px;
+ line-height: 100%;
+ letter-spacing: 0;
+ text-align: center;
+}
+.strong {
+  writing-mode:horizontal-tb;
+}
+
+.strength-list {
+ font-family: "Bitter", serif;
+ font-weight: 400;
+ font-size: 34px;
+ line-height: 100%;
+ letter-spacing: 0;
+ color: #000;
+}
+
+h3 {
+font-family: "Playfair Display";
+font-weight: 500;
+font-size: 86px;
+line-height: 100%;
+letter-spacing: 0;
+vertical-align: bottom;
+}
+#Strong_point {
+  flex-direction: column;
+  align-items: start;
+}
+
+div .center {
+  text-align: center;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 20px;
+ }
+
+ .contacts {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0;
+ }
+
+.contacts a {
+ vertical-align: middle;
+ color: #000;
+ text-decoration: underline;
+ offset: 0%;
+ text-decoration-thickness: 0%;
+ text-align: left;
+}
+
+ .footer p {
+ font-family: "Roboto", sans-serif;
+ font-weight: 500;
+ font-size: 18px;
+ line-height: 100%;
+ letter-spacing: 0px;
+ text-align: center;
+ }
+ .footer-center {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  vertical-align: middle;
+  letter-spacing: 0px;
+}
+.mod-font {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 24px;
+  text-align: center;
+  vertical-align: middle;
+  letter-spacing: 0px;
+  line-height: 100%;
+}
+
+ .footer-right {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: right;
+  letter-spacing: 0px;
+ }
